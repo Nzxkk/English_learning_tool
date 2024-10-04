@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>maintool</class>
+ <widget class="QWidget" name="maintool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="reviewFailWordsButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/PNG99.png);
+
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>回顾单词</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG101.png);
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>背诵单词</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="translationButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG100.png);
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>人工智能</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="readingcompreButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG110.png);
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>阅读理解</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>150</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG112.png);
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>退出学习</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_news">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG108.png);border: none;</string>
+   </property>
+   <property name="text">
+    <string>阅读资料</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gram">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>120</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/PNG103.png);
+border: none;</string>
+   </property>
+   <property name="text">
+    <string>语法填空</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
